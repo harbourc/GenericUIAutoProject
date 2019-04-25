@@ -1,4 +1,5 @@
 ﻿using System;
+using GenericUIAutoProject.FactoryClasses;
 using NUnit.Framework;
 using OpenQA.Selenium;
 
