@@ -57,8 +57,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BaseTestFixture.cs" />
-    <Compile Include="DriverFactory.cs" />
+    <Compile Include="FactoryClasses\ChromeFactory.cs" />
+    <Compile Include="FactoryClasses\ChromeHeadlessFactory.cs" />
+    <Compile Include="FactoryClasses\DriverFactory.cs" />
     <Compile Include="EnvironmentConfiguration.cs" />
+    <Compile Include="FactoryClasses\FirefoxFactory.cs" />
+    <Compile Include="FactoryClasses\IEFactory.cs" />
     <Compile Include="PageObjects\BasePageObject.cs" />
     <Compile Include="PageObjects\GoogleHomePage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
